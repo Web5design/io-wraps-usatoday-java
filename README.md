@@ -46,7 +46,7 @@ Follow the steps below for a quick start to using this client library:
 
 1. Grab the latest source with git. 
 
-    <pre>git clone git://github.com/mashery/io-wrap-usatoday-java.git</pre>
+    <pre>git clone git://github.com/mashery/io-wraps-usatoday-java.git</pre>
 
 2. From the root of the unpack repo above, build with Maven:
 
