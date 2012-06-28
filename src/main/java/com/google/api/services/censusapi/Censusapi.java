@@ -70,7 +70,7 @@ public class Censusapi extends GoogleClient {
    * The default base URL of the service. This is determined when the library is generated and
    * normally should not be changed.
    */
-  public static final String DEFAULT_BASE_URL = "http://api.usatoday.com/open";
+  public static final String DEFAULT_BASE_URL = "https://www.googleapis.com/open";
 
   /**
    * The application name to be sent in the User-Agent header of each request.
@@ -82,7 +82,7 @@ public class Censusapi extends GoogleClient {
    * The URL of the server hosting the API.
    */
   @Deprecated
-  private String baseServer = "http://api.usatoday.com";
+  private String baseServer = "https://www.googleapis.com";
 
   /**
    * The base path of the service.
