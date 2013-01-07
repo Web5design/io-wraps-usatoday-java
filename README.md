@@ -25,7 +25,7 @@ Client libraries make life easier by bringing the API into your native language 
     Usatodayapi usatodayapi = new Usatodayapi.Builder(new NetHttpTransport(), jsonFactory....
 
     // Initialize the request object
-    UsatodayApiRequest apiRequest = (RoviApiRequest)request;
+    UsatodayApiRequest apiRequest = (UsatodayApiRequest)request;
     
     // Set your API key
     apiRequest.set("apikey","YOUR_KEY_HERE");
@@ -36,7 +36,7 @@ Client libraries make life easier by bringing the API into your native language 
 ## Requirements
 1. [Java](http://www.java.com/en/)
 2. [Maven](http://maven.apache.org/)
-2. Rovi API key -- head over to [http://developer.usatodaycorp.com](http://developer.usatodaycorp.com) 
+2. USA TODAY API key -- head over to [http://developer.usatodaycorp.com](http://developer.usatodaycorp.com) 
 
 ## IDE is optional, but nice
 At Mashery, we love [vim](http://www.vim.org) just as much as the next guy, but when it comes to tool-tips, code-completion and general object-oriented goodness, IDEs can be really useful. [Eclipse](http://eclipse.org), [Netbeans](http://netbeans.org), etc. They're all very mature and useful tools.
